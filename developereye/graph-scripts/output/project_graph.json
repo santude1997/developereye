@@ -1,0 +1,369 @@
+{
+  "generated_at": "2026-09-14T12:27:01.758Z",
+  "depends_on": {
+    "src/App.tsx": [
+      "src/layouts/MainLayout.tsx",
+      "src/components/ErrorBoundary.tsx",
+      "src/pages/Home.tsx",
+      "src/pages/Services.tsx",
+      "src/pages/AISolutions.tsx",
+      "src/pages/WebApplications.tsx",
+      "src/pages/Projects.tsx",
+      "src/pages/About.tsx",
+      "src/pages/Careers.tsx",
+      "src/pages/Contact.tsx",
+      "src/pages/PrivacyPolicy.tsx",
+      "src/pages/Terms.tsx",
+      "src/pages/NotFound.tsx"
+    ],
+    "src/main.tsx": [
+      "src/App.tsx",
+      "src/context/ToastContext.tsx"
+    ],
+    "src/components/Button.tsx": [],
+    "src/components/ContactForm.tsx": [
+      "src/components/Button.tsx",
+      "src/services/contactService.ts",
+      "src/context/ToastContext.tsx",
+      "src/utils/helpers.ts",
+      "src/types/index.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/components/ErrorBoundary.tsx": [],
+    "src/components/Footer.tsx": [],
+    "src/components/Hero.tsx": [
+      "src/components/Button.tsx",
+      "src/utils/motion.ts"
+    ],
+    "src/components/JobCard.tsx": [
+      "src/types/index.ts",
+      "src/utils/motion.ts",
+      "src/components/Button.tsx"
+    ],
+    "src/components/Modal.tsx": [],
+    "src/components/Navbar.tsx": [
+      "src/components/Button.tsx"
+    ],
+    "src/components/ProcessTimeline.tsx": [
+      "src/utils/motion.ts"
+    ],
+    "src/components/ProjectCard.tsx": [
+      "src/types/index.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/components/SectionHeading.tsx": [
+      "src/utils/motion.ts"
+    ],
+    "src/components/ServiceCard.tsx": [
+      "src/types/index.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/components/TeamCard.tsx": [
+      "src/types/index.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/components/TechBadge.tsx": [],
+    "src/context/ToastContext.tsx": [],
+    "src/data/jobsData.ts": [
+      "src/types/index.ts"
+    ],
+    "src/data/projectsData.ts": [
+      "src/types/index.ts"
+    ],
+    "src/data/servicesData.ts": [
+      "src/types/index.ts"
+    ],
+    "src/data/teamData.ts": [
+      "src/types/index.ts"
+    ],
+    "src/data/techData.ts": [
+      "src/types/index.ts"
+    ],
+    "src/layouts/MainLayout.tsx": [
+      "src/components/Navbar.tsx",
+      "src/components/Footer.tsx"
+    ],
+    "src/pages/About.tsx": [
+      "src/components/SectionHeading.tsx",
+      "src/components/TeamCard.tsx",
+      "src/data/teamData.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/pages/AISolutions.tsx": [
+      "src/components/SectionHeading.tsx",
+      "src/components/Button.tsx",
+      "src/utils/motion.ts"
+    ],
+    "src/pages/Careers.tsx": [
+      "src/components/SectionHeading.tsx",
+      "src/components/JobCard.tsx",
+      "src/components/Button.tsx",
+      "src/components/Modal.tsx",
+      "src/data/jobsData.ts",
+      "src/services/careerService.ts",
+      "src/context/ToastContext.tsx",
+      "src/utils/helpers.ts",
+      "src/types/index.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/pages/Contact.tsx": [
+      "src/components/SectionHeading.tsx",
+      "src/components/ContactForm.tsx"
+    ],
+    "src/pages/Home.tsx": [
+      "src/components/Hero.tsx",
+      "src/components/SectionHeading.tsx",
+      "src/components/ServiceCard.tsx",
+      "src/components/ProjectCard.tsx",
+      "src/components/TechBadge.tsx",
+      "src/components/ProcessTimeline.tsx",
+      "src/components/Button.tsx",
+      "src/data/servicesData.ts",
+      "src/data/projectsData.ts",
+      "src/data/techData.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/pages/NotFound.tsx": [
+      "src/components/Button.tsx"
+    ],
+    "src/pages/PrivacyPolicy.tsx": [
+      "src/components/SectionHeading.tsx"
+    ],
+    "src/pages/Projects.tsx": [
+      "src/components/SectionHeading.tsx",
+      "src/components/ProjectCard.tsx",
+      "src/data/projectsData.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/pages/Services.tsx": [
+      "src/components/SectionHeading.tsx",
+      "src/components/ServiceCard.tsx",
+      "src/data/servicesData.ts",
+      "src/utils/motion.ts"
+    ],
+    "src/pages/Terms.tsx": [
+      "src/components/SectionHeading.tsx"
+    ],
+    "src/pages/WebApplications.tsx": [
+      "src/components/SectionHeading.tsx",
+      "src/components/Button.tsx",
+      "src/utils/motion.ts"
+    ],
+    "src/services/careerService.ts": [
+      "src/utils/helpers.ts",
+      "src/types/index.ts"
+    ],
+    "src/services/contactService.ts": [
+      "src/utils/helpers.ts",
+      "src/types/index.ts"
+    ],
+    "src/types/index.ts": [],
+    "src/utils/helpers.ts": [],
+    "src/utils/motion.ts": []
+  },
+  "used_by": {
+    "src/layouts/MainLayout.tsx": [
+      "src/App.tsx"
+    ],
+    "src/components/ErrorBoundary.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/Home.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/Services.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/AISolutions.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/WebApplications.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/Projects.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/About.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/Careers.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/Contact.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/PrivacyPolicy.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/Terms.tsx": [
+      "src/App.tsx"
+    ],
+    "src/pages/NotFound.tsx": [
+      "src/App.tsx"
+    ],
+    "src/App.tsx": [
+      "src/main.tsx"
+    ],
+    "src/context/ToastContext.tsx": [
+      "src/main.tsx",
+      "src/components/ContactForm.tsx",
+      "src/pages/Careers.tsx"
+    ],
+    "src/components/Button.tsx": [
+      "src/components/ContactForm.tsx",
+      "src/components/Hero.tsx",
+      "src/components/JobCard.tsx",
+      "src/components/Navbar.tsx",
+      "src/pages/AISolutions.tsx",
+      "src/pages/Careers.tsx",
+      "src/pages/Home.tsx",
+      "src/pages/NotFound.tsx",
+      "src/pages/WebApplications.tsx"
+    ],
+    "src/services/contactService.ts": [
+      "src/components/ContactForm.tsx"
+    ],
+    "src/utils/helpers.ts": [
+      "src/components/ContactForm.tsx",
+      "src/pages/Careers.tsx",
+      "src/services/careerService.ts",
+      "src/services/contactService.ts"
+    ],
+    "src/types/index.ts": [
+      "src/components/ContactForm.tsx",
+      "src/components/JobCard.tsx",
+      "src/components/ProjectCard.tsx",
+      "src/components/ServiceCard.tsx",
+      "src/components/TeamCard.tsx",
+      "src/data/jobsData.ts",
+      "src/data/projectsData.ts",
+      "src/data/servicesData.ts",
+      "src/data/teamData.ts",
+      "src/data/techData.ts",
+      "src/pages/Careers.tsx",
+      "src/services/careerService.ts",
+      "src/services/contactService.ts"
+    ],
+    "src/utils/motion.ts": [
+      "src/components/ContactForm.tsx",
+      "src/components/Hero.tsx",
+      "src/components/JobCard.tsx",
+      "src/components/ProcessTimeline.tsx",
+      "src/components/ProjectCard.tsx",
+      "src/components/SectionHeading.tsx",
+      "src/components/ServiceCard.tsx",
+      "src/components/TeamCard.tsx",
+      "src/pages/About.tsx",
+      "src/pages/AISolutions.tsx",
+      "src/pages/Careers.tsx",
+      "src/pages/Home.tsx",
+      "src/pages/Projects.tsx",
+      "src/pages/Services.tsx",
+      "src/pages/WebApplications.tsx"
+    ],
+    "src/components/Navbar.tsx": [
+      "src/layouts/MainLayout.tsx"
+    ],
+    "src/components/Footer.tsx": [
+      "src/layouts/MainLayout.tsx"
+    ],
+    "src/components/SectionHeading.tsx": [
+      "src/pages/About.tsx",
+      "src/pages/AISolutions.tsx",
+      "src/pages/Careers.tsx",
+      "src/pages/Contact.tsx",
+      "src/pages/Home.tsx",
+      "src/pages/PrivacyPolicy.tsx",
+      "src/pages/Projects.tsx",
+      "src/pages/Services.tsx",
+      "src/pages/Terms.tsx",
+      "src/pages/WebApplications.tsx"
+    ],
+    "src/components/TeamCard.tsx": [
+      "src/pages/About.tsx"
+    ],
+    "src/data/teamData.ts": [
+      "src/pages/About.tsx"
+    ],
+    "src/components/JobCard.tsx": [
+      "src/pages/Careers.tsx"
+    ],
+    "src/components/Modal.tsx": [
+      "src/pages/Careers.tsx"
+    ],
+    "src/data/jobsData.ts": [
+      "src/pages/Careers.tsx"
+    ],
+    "src/services/careerService.ts": [
+      "src/pages/Careers.tsx"
+    ],
+    "src/components/ContactForm.tsx": [
+      "src/pages/Contact.tsx"
+    ],
+    "src/components/Hero.tsx": [
+      "src/pages/Home.tsx"
+    ],
+    "src/components/ServiceCard.tsx": [
+      "src/pages/Home.tsx",
+      "src/pages/Services.tsx"
+    ],
+    "src/components/ProjectCard.tsx": [
+      "src/pages/Home.tsx",
+      "src/pages/Projects.tsx"
+    ],
+    "src/components/TechBadge.tsx": [
+      "src/pages/Home.tsx"
+    ],
+    "src/components/ProcessTimeline.tsx": [
+      "src/pages/Home.tsx"
+    ],
+    "src/data/servicesData.ts": [
+      "src/pages/Home.tsx",
+      "src/pages/Services.tsx"
+    ],
+    "src/data/projectsData.ts": [
+      "src/pages/Home.tsx",
+      "src/pages/Projects.tsx"
+    ],
+    "src/data/techData.ts": [
+      "src/pages/Home.tsx"
+    ]
+  },
+  "navigation_targets": {
+    "src/components/Footer.tsx": [
+      "/about",
+      "/careers",
+      "/contact",
+      "/ai-solutions",
+      "/services",
+      "/web-applications",
+      "/privacy-policy",
+      "/terms"
+    ],
+    "src/components/Hero.tsx": [
+      "/contact",
+      "/services"
+    ],
+    "src/components/Navbar.tsx": [
+      "/",
+      "/contact"
+    ],
+    "src/components/ServiceCard.tsx": [
+      "/services"
+    ],
+    "src/pages/AISolutions.tsx": [
+      "/contact"
+    ],
+    "src/pages/Home.tsx": [
+      "/contact",
+      "/projects"
+    ],
+    "src/pages/NotFound.tsx": [
+      "/"
+    ],
+    "src/pages/WebApplications.tsx": [
+      "/contact"
+    ]
+  },
+  "api_calls": {}
+}
